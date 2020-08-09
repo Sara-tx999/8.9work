@@ -1,0 +1,455 @@
+/* 头部开始 */
+header{
+    height:1.24rem;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    /* position: fixed; */
+    top: 0;
+}
+.menu{
+    width: 0.3rem;
+    height: 0.26rem;
+    /* background-color: white; */
+    position: absolute;
+    left: 0.5rem;
+    top: 0.49rem;
+}
+.menu img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    
+    position: absolute;
+    width: 2.04rem;
+    height:1.1rem ;
+    left:2.73rem ;
+    top:0.07rem ;
+    /* background-color: white; */
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.icon{
+    width: 1.29rem;
+    height: 0.36rem;
+    /* background-color: yellow; */
+    position: absolute;
+    right: 0.3rem;
+    top: 0.44rem;
+}
+.icon img{
+    width: 0.43rem;
+    height: 100%;
+    float: left; 
+}
+/* .test{
+    width: 100%;
+    height: 25rem;
+    background-color: yellow;
+} */
+.list{
+    height: 13.34rem;
+    width: 7.5rem;
+    background: rgba(170, 167, 167, 0.7);
+    position: absolute;
+    top: -0.49rem;
+    left: -0.5rem;
+    display: none;
+    z-index: 999;
+}
+.nav{
+    height: 13.34rem;
+    width: 5rem;
+    background: rgba(170, 167, 167, 0.8);
+    float: left;
+}
+.ex{
+    height: 13.34rem;
+    width: 2.5rem;
+    float: left;
+    /* background-color: royalblue; */
+}
+.con{
+    width: 100%;
+    height:0.96rem ;
+    border-bottom:0.0005rem solid black;
+    font-size: 0.36rem;
+
+}
+.con .d{
+    width: 2.5rem;
+    height: 100%;
+    border-right:0.0005rem solid black ;
+    float: left;
+    text-align: center;
+    line-height: 0.96rem;
+    color: white;
+}
+.con .z{
+    width: 2.49rem;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 0.96rem;
+    color: white;
+}
+.con1{
+    height: 4.84rem;
+    width: 100%;
+    border-top:0.0005rem solid black ;
+    border-bottom: 0.0005rem solid black;
+    margin-top: 0.4rem;
+}
+.con1 li{
+    height: 0.8rem;
+    width: 100%;
+    border-bottom: 0.0005rem solid black;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: white;
+}
+/* 头部结束 */
+
+/* 轮播图开始 */
+.swiper-container{
+    margin-top: 0.04rem;
+    width: 100%;
+    height: 3.9rem;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.swiper-slide img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.text .line1{
+    font-size: 0.4rem;
+    margin-bottom:0.3rem ;
+    font-weight: bold;
+
+}
+.text .line2{
+    font-size: 0.4rem;
+    margin-bottom:0.4rem ;
+    font-weight: bold;
+
+}
+.text .x{
+    width: 3.16rem;
+    height: 0.04rem;
+    background-color: white;
+    margin-bottom: 0.48rem;
+}
+.text .line3{
+    font-size: 0.28rem;
+    font-weight: bold;
+
+}
+
+/* 轮播图结束 */
+
+/* 定制 */
+.cus{
+    width: 100%;
+    height: 4.36rem;
+    /* background-color: wheat; */
+    margin-top: 1.24rem;
+}
+.cus .title{
+    width: 2.1rem;
+    height: 1.52rem;
+    background: url(../imgs/01.png);
+    margin: 0 auto;
+}
+.contain{
+    width: 6.12rem;
+    height: 1.4rem;
+    /* background-color: violet; */
+    margin: 0 auto;
+    margin-top: 0.84rem;
+}
+.contain .con1{
+    height: 100%;
+    width: 0.96rem;
+    /* background-color: yellow; */
+    float: left;
+    margin: 0;
+    margin-right: 0.76rem;
+    border-style: none;
+}
+.con1 img{
+    width:0.84rem ;
+    height: 0.96rem;
+}
+.con1 p{
+    margin-top:0.2rem ;
+    font-size: 0.21rem;
+}
+.contain .con2{
+    height: 100%;
+    width: 0.96rem;
+    /* background-color: yellow; */
+    float: right;
+    margin: 0;
+}
+.con2 img{
+    width:0.84rem ;
+    height: 0.96rem;
+}
+.con2 p{
+    margin-top:0.2rem ;
+    font-size: 0.21rem;
+}
+/* 主题小团 */
+.theme{
+    height: 11.6rem;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 0.8rem;
+
+}
+.them1{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(247, 250, 250);
+    padding-top: 0.68rem;
+    position: relative;
+}
+.theme .title{
+    height: 1.6rem;
+    width: 1.64rem;
+    background: url("../imgs/02.jpg");
+    margin: 0 auto;
+    margin-bottom: 0.88rem;    
+}
+.swiper-container1{
+    height: 6.6rem;
+    width: 6.84rem;
+    border: 2px solid  rgb(230, 230, 230);
+    position: absolute;
+    left: 0.4rem;
+    bottom:0.86rem ;
+    overflow: hidden;
+}
+.swiper-container1 img{
+    width:6.82 rem;
+    height: 5.04rem;
+}
+.price h3{
+    font-size: 0.36rem;
+    font-weight: normal;
+    margin-top: 0.2rem;
+    color: rgb(91, 91, 94);
+}
+.price p{
+    font-size: 0.26rem;
+    margin-top: 0.3rem;
+    color: rgb(216, 219, 219);
+    margin-bottom: 0.35rem;
+}
+.price span{
+
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: rgb(109, 188, 164);
+}
+.button{
+    width: 2.56rem;
+    height: 0.64rem;
+    border: 1px solid rgb(192, 192, 192);
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.64rem;
+    color:rgb(109, 188, 164) ;
+    font-weight: 600;
+}
+
+/* 旅游商城开始 */
+.shop{
+    height: 9.8rem;
+    /* background-color: rosybrown; */
+
+}
+.shop .title{
+    height: 1.6rem;
+    width: 1.64rem;
+    background: url(../imgs/03.jpg);
+    margin: 0 auto;
+    margin-bottom: 0.88rem;
+}
+.swiper-container2{
+    height: 6.2rem;
+    width: 6.9rem;
+    border: 2px solid  rgb(230, 230, 230);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.swiper-container2 img{
+    width:6.88 rem;
+    height: 5.16rem;
+}
+.type{
+    text-align: center;
+
+}
+.type p{
+    color: rgb(92,92,92);
+    margin-top: 0.3rem;
+    font-size: 0.32rem;
+    margin-bottom: 0.3rem;
+}
+.type span{
+    color: rgb(180, 0, 39);
+
+    font-size: 0.32rem;
+    font-weight: bold;
+
+}
+.button1{
+    width: 2.56rem;
+    height: 0.64rem;
+    border: 1px solid rgb(192, 192, 192);
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.64rem;
+    color:rgb(109, 188, 164) ;
+    font-weight: 600;
+}
+/* 玩乐会 */
+.tour{
+    width: 100%;
+    height: 43.54rem;
+    background-color: rgb(247, 250, 250);
+    padding-top: 1.3rem;
+}
+.tour .title{
+    width: 2.8rem;
+    height: 1.6rem;
+    background: url("../imgs/04.jpg");
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+}
+.item{
+    height: 9.72rem;
+    width: 6.9rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+    background-color: white;
+}
+.item img{
+    width: 100%;
+    height:6.96rem ;
+    margin-bottom: 0.8rem;
+}
+.item .xian{
+    width: 0.4rem;
+    height: 0.04rem;
+    background-color: rgb(104, 104, 104);
+    margin: 0 auto;
+}
+.item p{
+    text-align: center;
+    margin-top: 0.2rem;
+    color: rgb(128, 128, 128);
+}
+
+.item1{
+    height: 9.72rem;
+    width: 6.9rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 0.1rem;
+}
+.item1 img{
+    width: 100%;
+    height:6.96rem ;
+    margin-bottom: 1.1rem;
+}
+.item1 .xian{
+    width: 0.4rem;
+    height: 0.04rem;
+    background-color: rgb(104, 104, 104);
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.item1 p{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+/* 客户案例 */
+.case{
+    height: 8.6rem;
+    width: 100%;
+    padding-top: 1.3rem;
+    position: relative;
+}
+.case .title{
+    width: 1.68rem;
+    height: 1.6rem;
+    background: url("../imgs/05.jpg");
+    margin: 0 auto;
+}
+.swiper-container3{
+    width: 100%;
+    height: 5.4rem;
+    background-color: rgb(244, 244, 244);
+}
+.swiper-container3 .swiper-slide img{
+    width: 3.04rem;
+    height: 3.04rem;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 0.8rem;
+}
+.swiper-container3 .swiper-slide .bo{
+    margin-top: 0.4rem;
+    font-size: 0.32rem;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(109, 188, 164) ;
+
+}
+
+.search{
+    margin: 0 auto;
+    
+    width: 6.44rem;
+    height: 0.8rem;
+    position: relative;
+}
+.search input{
+    width: 100%;
+    height: 0.7rem;
+    border: 1px solid #666666;
+}
+.search img{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    right: 0;
+    bottom:0.13rem;
+}
